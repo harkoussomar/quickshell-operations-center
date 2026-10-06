@@ -1,0 +1,21 @@
+# Nyvorel Operations Center
+
+[actions]
+terminal = ""
+editor = ""
+file_manager = ""
+
+[runtime]
+ignore_ports = []
+ignore_processes = []
+
+# Example custom detector:
+#
+# [[detectors]]
+# name = "Local API"
+# kind = "API"
+# icon = "api"
+# protocol = "http"
+# ports = [8787]
+# process_contains = "my-server"
+# cwd_contains = ""
